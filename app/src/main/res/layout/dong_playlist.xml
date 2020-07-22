@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/imgvBackgroundPl"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"></ImageView>
+    <View
+        android:background="@drawable/custom_background"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"></View>
+    <ImageView
+        android:id="@+id/imgViewPl"
+        android:elevation="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_alignBottom="@id/imgvBackgroundPl"
+        android:scaleType="fitXY"
+        android:layout_width="70dp"
+        android:layout_height="70dp"></ImageView>
+    <TextView
+        android:id="@+id/tvTenPl"
+        android:textColor="#FA2F2F"
+        android:textStyle="bold"
+        android:text="jun yeu huyenmeo"
+        android:layout_marginLeft="13dp"
+        android:layout_toRightOf="@id/imgViewPl"
+        android:layout_alignBottom="@id/imgvBackgroundPl"
+        android:ellipsize="end"
+        android:textSize="20sp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="10dp"
+        android:maxLines="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+
+</RelativeLayout>
